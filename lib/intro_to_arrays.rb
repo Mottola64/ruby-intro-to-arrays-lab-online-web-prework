@@ -1,4 +1,4 @@
-def instantiate_new_array(my_array)
-  puts my_array = []
+def instantiate_new_array(my_new_array)
+  puts my_new_array = []
   end
 
