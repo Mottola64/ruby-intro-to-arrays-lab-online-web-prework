@@ -1,28 +1,29 @@
-def instantiate_new_array
-  Array.new
+def instantiate_new_array(my_new_array)
+  my_new_array = Array.new
+  my_new_array
   end
 
 def array_with_two_elements
   [1, 2]
 end
 
-def first_element(Array)
-  Array[0]
+def first_element(my_new_array)
+  my_new_array[0]
 end
 
-def third_element(Array)
-  Array[2]
+def third_element(my_new_array)
+  my_new_array[2]
 end
 
-def last_element(Array)
-  Array[3]
+def last_element(my_new_array)
+  my_new_array[3]
 end
 
-def first_element_with_array_methods(Array)
-  Array.first
+def first_element_with_array_methods(my_new_array)
+  my_new_array.first
 end
 
-def last_element_with_array_methods(Array)
-  Array.last
+def last_element_with_array_methods(my_new_array)
+  my_new_array.last
 end
 
